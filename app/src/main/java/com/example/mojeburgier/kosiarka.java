@@ -64,12 +64,11 @@ public class kosiarka {
 
     @Override
     public String toString() {
-        return "kosiarka{" +
-                "id=" + id +
-                ", marka='" + marka + '\'' +
-                ", model='" + model + '\'' +
-                ", obrotowy=" + obrotowy +
-                ", szybkosc=" + szybkosc +
-                '}';
+        return //"kosiarka{" +
+                //"id=" + id +
+                "Marka: " + marka +
+                ", Model: " + model +
+                ", Obrotowy: " + obrotowy +
+                ", Szybkosc: " + szybkosc;
     }
 }
